@@ -35,16 +35,28 @@ const Sidebar = () => {
         <div className="footer mt-[180px]">
           <ul className="flex flex-wrap gap-2 text-sm">
             <li>
-              <a href="/">Privacy &#8226;</a>
+              <a href="/" className=" hover:underline">
+                Privacy
+              </a>
+              <span> &#8226;</span>
             </li>
             <li>
-              <a href="/">Terms &#8226;</a>
+              <a href="/" className=" hover:underline">
+                Terms
+              </a>
+              <span>&#8226;</span>
             </li>
             <li>
-              <a href="/">Cookies &#8226;</a>
+              <a href="/" className=" hover:underline">
+                Cookies
+              </a>
+              <span> &#8226;</span>
             </li>
             <li>
-              <a href="/">Advertising &#8226;</a>
+              <a href="/" className=" hover:underline">
+                Advertising
+              </a>
+              <span> &#8226;</span>
             </li>
             <li>Mota &#169; 2023</li>
             <li></li>
